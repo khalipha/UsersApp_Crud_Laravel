@@ -20,7 +20,6 @@ Route::get('/', function () {
 // New
 
 Route::resource('users','UserController');
-Route::resource('students','StudentController');
 
 
 
